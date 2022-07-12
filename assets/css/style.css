@@ -1,0 +1,23 @@
+/*** CREAR personalizados las clases****/
+nav img {
+    height: 2.5rem;
+}
+.nav-brand {
+    font-size: 1.6rem;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+/** seccion quienes somos**/
+.quienes__somos {
+    padding: 5rem 0;
+    text-align: justify;
+}
+.quienes__somos i {
+    color: #ffffff;
+    font-size: 2rem;
+    background-color: rgb(62, 164, 179);
+    text-align: center;
+    width: 100%;
+    padding: 0.3rem auto;
+}
