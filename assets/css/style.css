@@ -15,11 +15,11 @@ nav img {
     padding: 5rem 0;
     text-align: justify;
 }
-.quienes__somos h1 {
+.encabezados {
     text-align: center;
     color: #ffffff;
-    font-size: 5rem;
-    padding: 5rem 0;
+    font-size: 3rem;
+    padding: 2rem 0;
 }
 .quienes__somos p {
     color: #ffffff;
@@ -27,13 +27,36 @@ nav img {
 .quienes__somos i {
     color: #ffffff;
     font-size: 2rem;
-    background-color: rgb(62, 164, 179);
+    background-color: #3ea4b3;
     text-align: center;
     width: 100%;
     padding: 7px 0 ;
 }
-footer {
-    background-color: rgb(62, 164, 179);
-    color: #ffffff;
+
+@media screen and (min-width: 768px) {
+    #d__parrafo__2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
+/** Cards **/
+.card-body {
+    background-color: #3ea4b3;
+    color: #ffffff;
+}
+.card-text {
+    text-align: justify;
+}
+@media screen and (min-width: 768px) {
+    .card img {
+        height: 14vw;
+    }    
+}
+
+
+/**footer**/
+footer {
+    background-color: #3ea4b3;
+    color: #ffffff;
+}
