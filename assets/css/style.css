@@ -1,4 +1,6 @@
-/*** CREAR personalizados las clases****/
+body {
+    background-color: rgb(23, 17, 17);
+}
 nav img {
     height: 2.5rem;
 }
@@ -13,11 +15,25 @@ nav img {
     padding: 5rem 0;
     text-align: justify;
 }
+.quienes__somos h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 5rem;
+    padding: 5rem 0;
+}
+.quienes__somos p {
+    color: #ffffff;
+}
 .quienes__somos i {
     color: #ffffff;
     font-size: 2rem;
     background-color: rgb(62, 164, 179);
     text-align: center;
     width: 100%;
-    padding: 0.3rem auto;
+    padding: 7px 0 ;
 }
+footer {
+    background-color: rgb(62, 164, 179);
+    color: #ffffff;
+}
+
