@@ -1,3 +1,8 @@
+html *{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
 body {
     background-color: rgb(23, 17, 17);
 }
@@ -9,6 +14,9 @@ nav img {
 }
 .nav-link {
     font-size: 1.2rem;
+}
+.celestito {
+    background-color: #3ea4b3;
 }
 /** seccion quienes somos**/
 .quienes__somos {
@@ -33,10 +41,9 @@ nav img {
     padding: 7px 0 ;
 }
 
-@media screen and (min-width: 768px) {
-    #d__parrafo__2{
-        display: flex;
-        flex-direction: column-reverse;
+@media screen and (max-width: 768px) {
+    .quienes__somos{
+        display: none;
     }
 }
 
@@ -54,9 +61,22 @@ nav img {
     }    
 }
 
+/**Estilo hr**/
+hr{
+    color:#3ea4b3;
+    size: 3px;
+}
+
 
 /**footer**/
 footer {
     background-color: #3ea4b3;
     color: #ffffff;
+    padding: 3rem 0;
+    margin: auto 0;
 }
+
+#final a {
+    color: #ffffff;   
+}
+
